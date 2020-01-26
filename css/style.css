@@ -1,0 +1,662 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.first-row-fullwidht {
+    height: 80px;
+    background-color: #ffffff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1080px;
+    max-width: 1200px;
+    position: relative;
+}
+
+.prima-riga {
+    line-height: 80px;
+}
+
+.logo {
+    margin-left: 20px;
+    float: left;
+}
+
+#navbar {
+    float: right;
+}
+
+a {
+    color: #54475b;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    list-style: none;
+    margin-right: 35px;
+}
+
+.second-row-fullwidht {
+    height: 80px;
+    background-color: #425b76;
+}
+.promo {
+    margin: 0 auto;
+    height: 80px;
+    width: 1080px;
+    max-width: 1200px;
+}
+.promo-bar {
+    float: left;
+}
+#margin {
+    margin-top: 20px;
+}
+.promo-bar p {
+    width: 910px;
+    color: white;
+    font-size: 16px;
+}
+.learn-more {
+    float: left;
+}
+.learn-more a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 16px;
+    color: #425b76;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.third-row-fullwidht {
+    height: 600px;
+    background-color: #fff3ee;
+    background-image: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2019/clouds-desktop.svg);
+    border-bottom: 2px solid #435466;
+}
+
+.banner {
+    position: absolute; top: 80px;
+}
+
+.jumbotron h1 {
+    font-size: 45px;
+    color: #33475b;
+}
+
+.banner p {
+    font-size: 12px;
+    color: #33475b;
+    font-weight: lighter;
+}
+
+.for-free {
+    margin-top: 40px;
+}
+
+.for-free a {
+    text-decoration: none;
+    font-family: 'Alata', sans-serif;
+    font-size: 14px;
+    padding: 20px 34px;
+    color: white;
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    border-radius: 5px;
+}
+
+.marketing {
+    margin-top: 25px;
+}
+
+.free-tools {
+    margin-top: 38px;
+}
+
+.fourth-row-fullwidht {
+    background-color: #fff3ee;
+}
+
+.first-section {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.cubes img {
+    width: 260px;
+    height: 195px;
+}
+
+.powerful-alone h2 {
+    color: #33475b;
+}
+
+.powerful-paragraph {
+    margin-top: 10px;
+    color: #33475b;
+}
+
+.container-second-section {
+    margin-top: 50px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+}
+
+.second-sx {
+    position: absolute; left: 250px;
+}
+
+.second-dx {
+    position: absolute; right: 80px;
+}
+
+.second-sx img {
+    width: 154px;
+    height: 152px;
+}
+
+.crm {
+    margin-left: 20px;
+}
+
+.crm a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px 18px;
+    color: white;
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    border-radius: 5px;
+}
+
+.free-hubspot {
+    font-size: 25px;
+    color: #33475b;
+    margin-bottom: 18px;
+}
+
+.everything {
+    font-size: 14px;
+    color: #33475b;
+    margin-bottom: 18px;
+}
+
+.popularfeat {
+    color: #33475b;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.insights {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.insights .checkmark {
+    padding: 4px;
+    font-size: 16px;
+    color: white;
+    border: 2px solid #ff7a59;
+    border-radius: 50%;
+    background-color: #ff7a59;
+    display: inline-block;
+}
+
+.insights p {
+    margin-left: 8px;
+    font-size: 15px;
+    color: #33475b;
+    display: inline-block;
+}
+
+.third-section {
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+.prima-finestra {
+    width: 33.33%;
+    height: 600px;
+    float: left;
+    background-color: #fff3ee;
+    padding-right: 25px;
+}
+
+.seconda-finestra {
+    width: 33.33%;
+    height: 600px;
+    float: left;
+    background-color: #fff3ee;
+}
+
+.terza-finestra {
+    width: 33.33%;
+    height: 600px;
+    float: left;
+    padding-left: 25px;
+    background-color: #fff3ee;
+}
+
+.content {
+    height: 100%;
+    background-color: white;
+}
+
+#contentlogo1, #contentlogo2, #contentlogo3 {
+    width: 233px;
+    height: 150px;
+    margin-left: 40px;
+}
+
+.titolo-markhub {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mark-hub h3 {
+    font-size: 26px;
+    color: #33475b;
+}
+
+.mark-hub p {
+    margin-left: 28px;
+    font-size: 16px;
+    color: #33475b;
+}
+
+.titolo-saleshub {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.sales-hub h3 {
+    font-size: 26px;
+    color: #33475b;
+}
+
+.sales-hub p {
+    margin-left: 28px;
+    font-size: 16px;
+    color: #33475b;
+}
+
+.titolo-servicehub {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.service-hub h3 {
+    font-size: 26px;
+    color: #33475b;
+}
+
+.service-hub p {
+    margin-left: 28px;
+    font-size: 16px;
+    color: #33475b;
+}
+
+.mark-hub hr, .sales-hub hr, .service-hub hr {
+    width: 80%;
+    margin: 30px auto;
+    color: #ecf0f4;
+}
+
+.popfeat {
+    text-align: center;
+    color: #33475b;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.second-insights {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.second-insights .check {
+    padding: 4px;
+    font-size: 16px;
+    color: white;
+    border: 2px solid #ff7a59;
+    border-radius: 50%;
+    background-color: #ff7a59;
+    display: inline;
+}
+
+.second-insights p {
+    margin-left: 8px;
+    font-size: 15px;
+    color: #33475b;
+    display: inline;
+}
+
+.getstarted {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.getstarted a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 12px 22px;
+    color: white;
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    border-radius: 5px;
+}
+
+.fifth-row {
+    background-color: #00acb5;
+    padding-bottom: 100px;
+}
+
+.prima-sezione {
+    width: 900px;
+    margin-left: 80px;
+}
+
+.title-learn, .subtitle-learn {
+    text-align: center;
+}
+
+.title-learn h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.subtitle-learn {
+    margin-top: 25px;
+}
+
+.subtitle-learn p {
+    color: white;
+    font-size: 18px;
+}
+
+.seconda-sezione {
+    margin-top: 100px;
+}
+
+.primobluup, .secondobluup, .terzobluup, .quartobluup {
+    width: 25%;
+    height:280px;
+    float: left;
+}
+
+.primobludown, .secondobludown, .terzobludown, .quartobludown {
+    width: 25%;
+    height: 280px;
+    border-top: 1px solid white;
+    float: left;
+}
+
+.primobluup {
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.secondobluup {
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.terzobluup {
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.quartobluup {
+    text-align: center;
+}
+
+.primobludown {
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.secondobludown {
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.terzobludown {
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.quartobludown {
+    text-align: center;
+}
+
+.insides1 {
+    margin-top: 80px;
+}
+
+#handshake {
+    width: 44px;
+    height: 33px;
+}
+
+.numerone {
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+}
+
+.primobluup p {
+    color: white;
+    font-size: 15px;
+}
+
+#blogs {
+    width: 80px;
+    height: 53px;
+}
+
+.secondobluup p {
+    color: white;
+    font-size: 15px;
+}
+
+.insides2 {
+    margin-top: 64px;
+}
+
+#academy {
+    width: 127px;
+    height: 53px;
+}
+
+.terzobluup p {
+    color: white;
+    font-size: 15px;
+}
+
+.insides3 {
+    margin-top: 65px;
+}
+
+#inbound {
+    width: 127px;
+    height: 53px;
+}
+
+.quartobluup p {
+    color: white;
+    font-size: 15px;
+}
+
+.insides4 {
+    margin-top: 65px;
+}
+
+#connect {
+    width: 80px;
+    height: 53px;
+}
+
+.primobludown p {
+    color: white;
+    font-size: 15px;
+}
+
+.insides5 {
+    margin-top: 65px;
+}
+
+#globe {
+    width: 60px;
+    height: 38px;
+}
+
+.secondobludown p {
+    color: white;
+    font-size: 15px;
+}
+
+.insides6 {
+    margin-top: 75px;
+}
+
+#parrot {
+    width: 80px;
+    height: 53px;
+}
+
+.terzobludown p {
+    color: white;
+    font-size: 15px;
+}
+
+.insides7 {
+    margin-top: 60px;
+}
+#growth {
+    width: 100px;
+    height: 53px;
+}
+.quartobludown p {
+
+    color: white;
+    font-size: 15px;
+}
+
+.insides8 {
+    margin-top: 60px;
+}
+
+.sixth-row {
+
+    height: 800px;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+    border-bottom: 2px solid #435466;
+}
+
+.prima-stringa {
+    position: relative;
+}
+
+.sixsx {
+    position: absolute; top: 70px;
+}
+
+.sixsx h2 {
+    color: #33475b;
+    font-size: 50px;
+}
+
+.sotto68 {
+    margin-top: 15px;
+    line-height: 40px;
+    color: #33475b;
+    font-size: 25px;
+}
+
+.logocard-primaup, .logocard-secondaup, .logocard-terzaup, .logocard-quartaup {
+    width: 180px;
+    height: 180px;
+    float: right;
+}
+
+.logocard-primadown, .logocard-secondadown, .logocard-terzadown, .logocard-quartadown {
+    width: 180px;
+    height: 180px;
+    float: right;
+}
+
+.rigaunologo {
+    margin-top: 100px;
+}
+
+#purple {
+    margin-top: 80px;
+    margin-left: 10px;
+    width: 130px;
+    height: 43px;
+}
+
+#crowd {
+    margin-top: 82px;
+    margin-left: 10px;
+    width: 130px;
+    height: 40px;
+}
+
+#dash {
+    margin-top: 90px;
+    margin-left: 10px;
+    width: 130px;
+    height: 20px;
+}
+
+#atlas {
+    margin-top: 92px;
+    margin-left: 10px;
+    width: 130px;
+    height: 18px;
+}
+
+#ware {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 130px;
+    height: 30px;
+}
+
+#classpass {
+    margin-top: 24px;
+    margin-left: 10px;
+    width: 130px;
+    height: 48px;
+}
+
+#wistia{
+    margin-top: 34px;
+    margin-left: 10px;
+    width: 130px;
+    height: 22px;
+}
+
+#subaru{
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 130px;
+    height: 44px;
+}
